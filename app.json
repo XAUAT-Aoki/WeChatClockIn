@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/submitCode/submitCode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置将用于定位你是否入座。"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

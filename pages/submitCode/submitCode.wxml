@@ -1,0 +1,17 @@
+<!--pages/submitCode/submitCode.wxml-->
+<view class="container"> 
+  <view class="welcome">欢迎登录😃
+    <view class="username">{{username}}同学🤞</view>
+  </view>
+  <view class="message">
+    <text>{{message}}</text>
+  </view>
+
+  <view class="{{isError==0 ? 'problem-none' : 'problem-exist' }}">{{errorInfor}}</view>
+  <view class="sanCodeBtn">
+    <button class="btn" bindtap="startScan">开始扫码</button>
+  </view>
+</view>
+
+
+
